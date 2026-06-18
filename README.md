@@ -11,10 +11,12 @@ Welcome to my portfolio! I am a Data Analyst & Business Systems Analyst bridging
 
 **Business Context (ビジネス背景)**
 In omnichannel retail, raw transactional data is rarely perfectly clean. If dirty data reaches the reporting layer, it leads to inaccurate financial reporting and poor inventory decisions.
+
 **JP:** 小売業のローデータ（アプリや店舗のデータ）には、エラーが入っていることが多いです。間違ったデータがダッシュボードに入ると、売上や在庫の計算が合わなくなってしまいます。
 
 **Technical Implementation (技術的アプローチ)**
 Designed an automated QA pipeline running in the staging layer of a Data Warehouse. The script uses Window Functions to execute completeness, uniqueness, and business logic checks before data passes to production dashboards.
+
 **JP:** データウェアハウス（PostgreSQL / BigQuery）で自動チェック機能を作りました。SQLのWindow関数を使って、データの重複、空白（Null）、またはビジネスルールの間違いをBIツールに送る前に見つけます。
 
 **Data Transformation Showcase**
@@ -44,6 +46,7 @@ Marketing teams need to know exactly *which* loyalty tier a customer was in at t
 
 **Technical Implementation (技術的アプローチ)**
 Built a robust pipeline to process raw mobile app webhook data. Utilized `ROW_NUMBER()` to remove duplicate API triggers, and engineered Slowly Changing Dimensions (SCD Type 2) using the `LEAD()` function to maintain a perfect historical record.
+
 **JP:** モバイルアプリのデータ処理パイプラインを作りました。`ROW_NUMBER()`を使ってAPIの重複エラーを消しました。そして、`LEAD()`を使って「SCD Type 2」を作り、顧客のランクがいつ変わったかを正確に記録できるようにしました。
 
 **Data Transformation Showcase**
@@ -68,10 +71,12 @@ Built a robust pipeline to process raw mobile app webhook data. Utilized `ROW_NU
 
 **Business Context (ビジネス背景)**
 Merchandising and Finance teams require automated tracking of monthly sales performance. Manual Excel calculations are prone to human error and are not scalable.
+
 **JP:** マーチャンダイジングチームと財務チームは、毎月の売上の変化をチェックする必要があります。Excelの手作業はミスが起きやすく、時間もかかります。
 
 **Technical Implementation (技術的アプローチ)**
 Utilized the `LAG()` window function to calculate Month-over-Month (MoM) revenue growth directly within the Data Warehouse. This eliminates the need for expensive self-joins and ensures BI dashboards have pre-calculated metrics.
+
 **JP:** データウェアハウスの中で `LAG()` 関数を使って、前月比（MoM）の売上成長率を計算しました。これにより、BIツール（Tableau / Power BI）に自動で正しいデータが送られます。
 
 **Data Transformation Showcase**
