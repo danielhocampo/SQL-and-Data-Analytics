@@ -1,8 +1,8 @@
 # Enterprise Data Architecture & Analytics Portfolio 
+ 
+Welcome to my portfolio! I am a data professional specializing in data pipeline optimization, governance, and enterprise analytics. The technical frameworks I build—such as automated data quality profiling, historical dimension tracking, and financial automation—are highly scalable and industry-agnostic. My core focus is bridging the gap between complex technical architecture and actionable business intelligence.
 
-Welcome to my portfolio! I am a Data Analyst & Business Systems Analyst bridging the gap between retail merchandising strategy and enterprise data architecture. My work focuses on data governance, pipeline optimization, and delivering clean, actionable datasets for business intelligence.
-
-**JP:** 私のポートフォリオへようこそ！私は、小売業のマーチャンダイジング戦略とデータアーキテクチャの架け橋となるデータアナリスト / BSAです。データ品質の管理、パイプラインの最適化、そしてBIツール向けのクリーンなデータセットの提供に注力しています。
+**JP:** 私のポートフォリオへようこそ！私はデータパイプラインの最適化、データ品質管理、そしてエンタープライズ分析を専門とするデータプロフェッショナルです。私が構築する技術的フレームワーク（データ品質の自動チェック、履歴データの管理、財務レポートの自動化など）は、高い拡張性を持ち、あらゆる業界に応用可能です。複雑な技術アーキテクチャと、ビジネスで実際に使えるデータの架け橋となることに注力しています。
 
 ---
 
